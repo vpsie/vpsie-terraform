@@ -1,0 +1,42 @@
+
+		"resourceIdentifier":  &schema.Schema{
+				Type:     schema.TypeString,
+				Required: true,
+			},
+		"osIdentifier":  &schema.Schema{
+				Type:     schema.TypeString,
+				Required: true,
+			},
+		"dcIdentifier":  &schema.Schema{
+				Type:     schema.TypeString,
+				Required: true,
+			},
+		"hostname":  &schema.Schema{
+				Type:     schema.TypeString,
+				Required: true,
+			},
+		"notes":  &schema.Schema{
+				Type:     schema.TypeString,
+				Required: true,
+			},
+		"backupEnabled":  &schema.Schema{
+				Type:     schema.TypeString,
+				Required: true,
+			},
+		"addPublicIpV4":  &schema.Schema{
+				Type:     schema.TypeString,
+				Required: true,
+			},
+		"addPublicIpV6":  &schema.Schema{
+				Type:     schema.TypeString,
+				Required: true,
+			},
+		"addPrivateIp":  &schema.Schema{
+				Type:     schema.TypeString,
+				Required: true,
+			},
+		"sshKeyIdentifier":  &schema.Schema{
+				Type:     schema.TypeString,
+				Required: true,
+			},
+		"tags":
